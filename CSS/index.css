@@ -4,7 +4,6 @@
 @font-face {
     font-family: 'Gotham Medium';
     src: url('../font/Gotham-font-family/Gotham-Book.otf') format('opentype');
-    /* Sesuaikan path-nya sesuai dengan struktur folder Anda */
     font-weight: normal;
     font-style: normal;
 }
@@ -29,32 +28,28 @@ body {
     max-width: 1440px;
     height: 200em;
     border: 2px solid rgb(0, 0, 0);
-    /* Add border to show container boundaries */
     border-radius: 30px;
-    justify-content: center;
     display: flex;
     margin: 0 auto;
     padding: 20px;
-    /* Add padding for better visual appearance */
     z-index: 1;
+    flex-direction: column;
+    align-items: normal;
+    overflow-y: auto;
 }
 
 .parallax {
     background-image: url("../img/bodyImg/paralax.png");
-    height: 850px;
-    /*Tinggielemen100%daritinggilayar*/
+    height: 1000px;
     width: 100vw;
     position: absolute;
-    /*Lebarelemen100%darilebarlayar*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
     z-index: -1;
     justify-content: center;
-    filter: blur(0.3vw);
-    -webkit-filter: blur(0.3vw);
+    padding-right: 100px;
 }
 
 .penghubungParallax {
@@ -67,97 +62,59 @@ body {
     position: absolute;
     filter: blur(4vh);
     -webkit-filter: blur(4vh);
-    margin-top: 700px;
+    margin-top: 900px;
     z-index: -1;
 }
 
-.banner {
-    margin-top: 80px;
-    position: relative;
-}
+.banner {}
 
-/* button {
-    text-decoration: none;
-    position: relative;
-    border: none;
-    font-size: 14px;
-    font-family: inherit;
-    cursor: pointer;
-    color: #fff;
-    width: 9em;
-    height: 3em;
-    line-height: 2em;
+.landingText {
+    font-size: 18px;
+    color: #161717;
+    letter-spacing: 2px;
+    font-family: 'Gotham Medium', sans-serif;
+    width: 600px;
     text-align: center;
-    background: linear-gradient(90deg, #1EDA8B, #2EA6DA, #1EDA8B);
-    background-size: 300%;
-    border-radius: 5px;
-    z-index: 1;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    position: relative;
+    height: fit-content;
 }
 
-.getStarted:hover {
-    animation: ani 8s linear infinite;
-    border: none;
+.logoFull {
+    display: inline-flex;
+    justify-content: center;
+    padding: 70px 0px 50px 0;
 }
 
-@keyframes ani {
-    0% {
-        background-position: 0%;
-    }
-
-    100% {
-        background-position: 400%;
-    }
+.logoLanding {
+    height: 200px;
 }
 
-.getStarted:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-    background: linear-gradient(90deg, #1EDA8B, #2EA6DA, #1EDA8B, #2EA6DA);
-    background-size: 400%;
-    border-radius: 5px;
-    transition: 1s;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+.textlanding {
+    margin-top: 0 auto;
+    height: auto;
 }
 
-.getStarted:hover::before {
-    filter: blur(20px);
-    -webkit-filter: blur(20px);
-}
-
-.getStarted:active {
-    background: linear-gradient(32deg, #1EDA8B, #2EA6DA, #1EDA8B, #2EA6DA);
-} */
 .getStarted {
-    background: #a370f0;
+    background: #FF810C;
     color: white;
-    font-family: inherit;
+    font-family: 'Eight Bit Dragon', sans-serif;
     padding: 0.35em;
     padding-left: 1.2em;
     font-size: 17px;
     font-weight: 500;
     border-radius: 0.9em;
     border: none;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.15em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    justify-content: center;
+    box-shadow: 0px 0px 2em #db700c;
     overflow: hidden;
     position: relative;
-    height: 2.8em;
-    padding-right: 3.3em;
+    height: 4em;
+    padding-right: 4.4em;
     cursor: pointer;
+    margin-top: 3em;
 }
 
 .getStarted .icon {
@@ -167,12 +124,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.2em;
-    width: 2.2em;
+    height: 3.3em;
+    width: 3.3em;
     border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #FF810C;
     right: 0.3em;
     transition: all 0.3s;
+    -webkit-border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -ms-border-radius: 0.7em;
+    -o-border-radius: 0.7em;
 }
 
 .getStarted:hover .icon {
@@ -182,7 +143,7 @@ body {
 .getStarted .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #7b52b9;
+    color: #FF810C;
 }
 
 .getStarted:hover .icon svg {
@@ -191,4 +152,41 @@ body {
 
 .getStarted:active .icon {
     transform: scale(0.95);
+}
+
+#carouselExampleIndicators {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+.carousel-indicators [data-bs-target] {
+
+    margin-top: -20px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 500px;
+    height: 500px;
+    width: 1000px;
+    object-fit: fill;
+}
+
+.carousel-inner {
+    border-radius: 50px;
+
+}
+
+.carousel button {
+    margin: -9rem;
+    color: #161717;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
 }

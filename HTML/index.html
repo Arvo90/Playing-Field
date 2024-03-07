@@ -140,46 +140,87 @@
     <div class="penghubungParallax"></div>
 
     <div class="container">
-        <row class="banner">
-            <img image="logoFull" src="../img/bodyImg/logoFull.svg" alt="">
-            <div
-                style="margin-top: 
-            30px; font-size: 18px; color: #082845; letter-spacing: 2px;font-family: 'Gotham Medium', sans-serif;width:600px;text-align: center; font-weight: 900; position: relative; top: 30px;">
-                Discover thousands of exciting free<span style="color: #FF810C; "> Game's </span>
-                at Playing Field! Play now without had to download – endless free entertainment ready for you.
+        <div class="banner row " style="height: max-content; position: relative;">
+            <div class="logoFull col-12">
+                <img class="logoLanding" src="../img/bodyImg/logoFull.svg" alt="">
             </div>
-            <button class="getStarted"> Get started
-                <div class="icon">
-                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                            fill="currentColor"></path>
-                    </svg>
+            <div class="textlanding col-12">
+                <div class="landingText top-0 start-50 translate-middle-x">
+                    Discover thousands of exciting free<span style="color: #FF810C; "> Game's </span>
+                    at Playing Field! Play now without had to download – endless free entertainment ready for you.
                 </div>
-            </button>
-        </row>
+            </div>
+            <div class="col-12" style="padding: 30px 0 50px 0;">
+                <button class="getStarted top-0 start-50 translate-middle"> GET STARTED
+                    <div class="icon">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide top-0 start-50 translate-middle-x"
+                data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/bodyImg/slide.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/bodyImg/slide2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/bodyImg/slide.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <image src="../img/bodyImg/arrow.svg" style=" transform: scaleX(-1); /* Melakukan mirror secara horizontal */
+                    filter: FlipH;" class="arrow" aria-hidden="true"></image>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <image src="../img/bodyImg/arrow.svg" class="arrow" aria-hidden="true"></image>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-            function changePage(element) {
-                // Remove 'active' class from all links
-                document.querySelectorAll('.isi-nav a').forEach(link => link.classList.remove('active'));
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        function changePage(element) {
+            // Remove 'active' class from all links
+            document.querySelectorAll('.isi-nav a').forEach(link => link.classList.remove('active'));
 
-                // Add 'active' class to the clicked link
-                element.classList.add('active');
-            }
+            // Add 'active' class to the clicked link
+            element.classList.add('active');
+        }
 
-            const navElement = document.querySelector('nav');
+        const navElement = document.querySelector('nav');
 
-            navElement.addEventListener('mouseover', function () {
-                this.classList.add('scroll-hide-scrollbar');
-            });
+        navElement.addEventListener('mouseover', function () {
+            this.classList.add('scroll-hide-scrollbar');
+        });
 
-            navElement.addEventListener('mouseout', function () {
-                this.classList.remove('scroll-hide-scrollbar');
-            });
-        </script>
+        navElement.addEventListener('mouseout', function () {
+            this.classList.remove('scroll-hide-scrollbar');
+        });
+    </script>
 
 </body>
 
