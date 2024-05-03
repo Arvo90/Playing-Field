@@ -19,13 +19,6 @@
 }
 
 @font-face {
-    font-family: 'Circular Medium';
-    src: url('../font/circular/CircularStd-Medium.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Circular Bold';
     src: url('../font/circular/CircularStd-Bold.otf') format('opentype');
     font-weight: bold;
