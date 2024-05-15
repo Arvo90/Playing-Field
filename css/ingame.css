@@ -144,11 +144,6 @@ table {
         height: 100%;
         /* Menyesuaikan tinggi card */
     }
-
-}
-
-.col-xl-2 {
-    width: 230px;
 }
 
 .card-title {
@@ -164,7 +159,6 @@ table {
     padding: 10px;
     transition: opacity 0.3s;
     opacity: 0;
-
 }
 
 .card-title a {

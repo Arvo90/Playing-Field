@@ -1,0 +1,125 @@
+@import url('https://fonts.cdnfonts.com/css/eight-bit-dragon');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../font/Gotham-font-family/Gotham-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Medium';
+    src: url('../font/circular/CircularStd-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Medium';
+    src: url('../font/circular/CircularStd-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Bold';
+    src: url('../font/circular/CircularStd-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Black';
+    src: url('../font/circular/CircularStd-Black.otf') format('opentype');
+    font-weight: 900;
+    /* "900" represents the font weight for the Black variant */
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #ffedfa;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1440px;
+    height: fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    z-index: 1;
+    flex-direction: column;
+    align-items: normal;
+    overflow: hidden;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Lebar scrollbar */
+    height: 10px;
+    /* Tinggi scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffedfa;
+    /* Warna background track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Warna handle scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Warna handle scrollbar saat hover */
+}
+
+.scroll-buttons {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.list {
+    position: relative;
+}
+
+.scroll-buttons button {
+    opacity: 0.7;
+}
+
+.scroll-buttons button:hover {
+    opacity: 1;
+}
+
+.tags{
+    position: -webkit-sticky; /* Safari */
+    position: sticky; 
+    top: 0;
+    overflow: unset;
+    overflow-x: auto;
+    z-index: 100;
+    display: flex;
+}
