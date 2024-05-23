@@ -214,164 +214,33 @@
 
                 </div>
             </div>
+          
             <div class="col-3 mt-3">
-                <div class="cardTop col-3" style=" height: 200px; width: 100%;">
-                    <div class="card text-dark card-has-bg click-col"
-                        style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <div class="card-body">
-                                <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardTop col-3 mt-3" style=" height: 200px; width: 100%;">
-                    <div class="card text-dark card-has-bg click-col"
-                        style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <div class="card-body">
-                                <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardTop col-3 mt-3" style=" height: 200px; width: 100%;">
-                    <div class="card text-dark card-has-bg click-col"
-                        style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <div class="card-body">
-                                <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardTop col-3 mt-3" style=" height: 200px; width: 100%;">
-                    <div class="card text-dark card-has-bg click-col"
-                        style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <div class="card-body">
-                                <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardTop col-3 mt-3" style="height: 200px;">
-                <div class="card text-dark card-has-bg click-col"
-                    style="background-image:url('https://source.unsplash.com/600x900/?game');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
-                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="card-body">
-                            <h4 class="card-title mt-0 "><a herf="https://creativemanner.com">Web Developmet</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+               <?php 
+               include "connection.php";
+
+               $sql= "SELECT * FROM other_games ; ";
+               $result= mysqli_query($connection, $sql);
+               if (mysqli_num_rows($result) > 0) {
+                   while ($row = mysqli_fetch_assoc($result)) {
+                        echo "<div class='cardTop col-3' style=' height: 200px; width: 100%; padding: 10px;'>";
+                        ?><div class='card text-dark card-has-bg click-col' style="background-image:url('../img/cardImg/<?php echo $row['image']?>');"> <?php
+                        ?> <img class="card-img d-none" src="https://source.unsplash.com/600x900/?game"
+                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?"> <?php
+                        echo "<div class='card-img-overlay d-flex flex-column'>";
+                        echo "<div class='card-body'>";
+                        echo "<h4 class='card-title mt-0 '><a herf='https://creativemanner.com'>Web Developmet</a>";
+                        echo "</h4>";
+                        echo "</div>";
+                        echo "</div>";
+                        echo "</div>"; 
+                        echo "</div>";
+                   }
+                }
+               
+               ?> 
+                
         </div>
     </div>
 
